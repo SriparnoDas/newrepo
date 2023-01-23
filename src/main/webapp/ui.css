@@ -1,0 +1,44 @@
+body{
+	background: linear-gradient(135deg, #71b7e6, rgb(189, 146, 207));
+}
+a {
+	float:right;
+	
+}
+table{
+  background-color: #fff;
+  width: 55%;
+  height:320px;
+  padding: 40px;
+  position: absolute;
+  margin-left: 17rem;
+  margin-top: 4rem;
+  align-items: center;
+  border-radius: 12px;
+  }
+  
+.button {
+  padding: 20px;
+  font-size: 15px;
+  text-align:center;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  transition: all 0.3s ease;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  border: none;
+  border-radius: 15px;
+  width:180px;
+  
+}
+
+.button:hover {
+	background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+	color:white;
+	}
+.button:active {
+  background-color: grey;
+  
+  transform: translateY(4px);
+  }	
+	
